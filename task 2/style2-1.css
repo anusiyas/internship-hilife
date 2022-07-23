@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-decoration: wavy;
+    background-color: blue;
+    color: black;
+}
+*{
+    background-color: cyan;   
+}
+a:hover{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+p::first-letter
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+a:visited{
+    color: chartreuse;
+}

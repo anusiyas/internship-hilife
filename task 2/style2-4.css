@@ -1,0 +1,4 @@
+div{
+    background-image: -moz-linear-gradient(red,green,blue);
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    .ex1{
+        width:100px;
+        height: 150px;
+        animation-name: example;
+        animation-duration: 5s;
+        background-color: aqua;
+    }
+    .ex2{
+         transform: rotate(30deg);
+         width: 100px;
+         height: 150px;
+         background-color: black;
+         transition:width 2s;
+         transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    .ex2:hover{
+        width:500px;
+        height: 480px;
+    }
+    @keyframes example{
+        from{background-color: red;}
+        to{background-color: aqua;}
+    }
+  </style>
+</head>
+<body>
+   <h1>Animation</h1>
+   <div>anusiya</div>
+   <p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente beatae illum, minima eum, maiores tenetur neque reiciendis perspiciatis quisquam autem at, velit culpa est repellat quia eos eius atque vitae.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus doloribus atque necessitatibus illo voluptatum fuga nam, autem quis voluptate facilis sequi quod obcaecati aut dolorum, dignissimos non ab ipsam iste?
+   </p>
+   <div class="ex1"></div><br><br>
+   <div class="ex2"></div>
+</body>
+</html>
